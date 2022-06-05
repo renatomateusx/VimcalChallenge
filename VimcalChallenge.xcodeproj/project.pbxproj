@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		30CFF975284D44E90036AEDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF974284D44E90036AEDC /* AppDelegate.swift */; };
 		30CFF977284D44E90036AEDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF976284D44E90036AEDC /* SceneDelegate.swift */; };
-		30CFF979284D44E90036AEDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF978284D44E90036AEDC /* ViewController.swift */; };
+		30CFF979284D44E90036AEDC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF978284D44E90036AEDC /* HomeViewController.swift */; };
 		30CFF97C284D44E90036AEDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CFF97A284D44E90036AEDC /* Main.storyboard */; };
 		30CFF97E284D44EA0036AEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CFF97D284D44EA0036AEDC /* Assets.xcassets */; };
 		30CFF981284D44EA0036AEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CFF97F284D44EA0036AEDC /* LaunchScreen.storyboard */; };
 		30CFF98C284D44EA0036AEDC /* VimcalChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF98B284D44EA0036AEDC /* VimcalChallengeTests.swift */; };
 		30CFF996284D44EA0036AEDC /* VimcalChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF995284D44EA0036AEDC /* VimcalChallengeUITests.swift */; };
 		30CFF998284D44EA0036AEDC /* VimcalChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF997284D44EA0036AEDC /* VimcalChallengeUITestsLaunchTests.swift */; };
+		30CFF9AC284D46770036AEDC /* NumbersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF9AA284D46770036AEDC /* NumbersViewCell.swift */; };
+		30CFF9AD284D46770036AEDC /* NumbersViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30CFF9AB284D46770036AEDC /* NumbersViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		30CFF971284D44E90036AEDC /* VimcalChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimcalChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CFF974284D44E90036AEDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30CFF976284D44E90036AEDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30CFF978284D44E90036AEDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30CFF978284D44E90036AEDC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		30CFF97B284D44E90036AEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30CFF97D284D44EA0036AEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30CFF980284D44EA0036AEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		30CFF991284D44EA0036AEDC /* VimcalChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimcalChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CFF995284D44EA0036AEDC /* VimcalChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimcalChallengeUITests.swift; sourceTree = "<group>"; };
 		30CFF997284D44EA0036AEDC /* VimcalChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimcalChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30CFF9AA284D46770036AEDC /* NumbersViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewCell.swift; sourceTree = "<group>"; };
+		30CFF9AB284D46770036AEDC /* NumbersViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumbersViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,9 @@
 		30CFF973284D44E90036AEDC /* VimcalChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				30CFF974284D44E90036AEDC /* AppDelegate.swift */,
-				30CFF976284D44E90036AEDC /* SceneDelegate.swift */,
-				30CFF978284D44E90036AEDC /* ViewController.swift */,
-				30CFF97A284D44E90036AEDC /* Main.storyboard */,
-				30CFF97D284D44EA0036AEDC /* Assets.xcassets */,
-				30CFF97F284D44EA0036AEDC /* LaunchScreen.storyboard */,
+				30CFF9A4284D450B0036AEDC /* Base.Iproj */,
+				30CFF9A5284D45250036AEDC /* Resources */,
+				30CFF9A6284D45420036AEDC /* Home */,
 				30CFF982284D44EA0036AEDC /* Info.plist */,
 			);
 			path = VimcalChallenge;
@@ -125,6 +126,43 @@
 				30CFF997284D44EA0036AEDC /* VimcalChallengeUITestsLaunchTests.swift */,
 			);
 			path = VimcalChallengeUITests;
+			sourceTree = "<group>";
+		};
+		30CFF9A4284D450B0036AEDC /* Base.Iproj */ = {
+			isa = PBXGroup;
+			children = (
+				30CFF97A284D44E90036AEDC /* Main.storyboard */,
+				30CFF97F284D44EA0036AEDC /* LaunchScreen.storyboard */,
+			);
+			path = Base.Iproj;
+			sourceTree = "<group>";
+		};
+		30CFF9A5284D45250036AEDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30CFF974284D44E90036AEDC /* AppDelegate.swift */,
+				30CFF976284D44E90036AEDC /* SceneDelegate.swift */,
+				30CFF97D284D44EA0036AEDC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30CFF9A6284D45420036AEDC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				30CFF9A7284D464B0036AEDC /* NumbersViewCell */,
+				30CFF978284D44E90036AEDC /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		30CFF9A7284D464B0036AEDC /* NumbersViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				30CFF9AA284D46770036AEDC /* NumbersViewCell.swift */,
+				30CFF9AB284D46770036AEDC /* NumbersViewCell.xib */,
+			);
+			path = NumbersViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +272,7 @@
 				30CFF981284D44EA0036AEDC /* LaunchScreen.storyboard in Resources */,
 				30CFF97E284D44EA0036AEDC /* Assets.xcassets in Resources */,
 				30CFF97C284D44E90036AEDC /* Main.storyboard in Resources */,
+				30CFF9AD284D46770036AEDC /* NumbersViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30CFF979284D44E90036AEDC /* ViewController.swift in Sources */,
+				30CFF979284D44E90036AEDC /* HomeViewController.swift in Sources */,
 				30CFF975284D44E90036AEDC /* AppDelegate.swift in Sources */,
 				30CFF977284D44E90036AEDC /* SceneDelegate.swift in Sources */,
+				30CFF9AC284D46770036AEDC /* NumbersViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +483,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +495,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,6 +512,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +524,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

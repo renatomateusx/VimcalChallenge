@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CFF975284D44E90036AEDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF974284D44E90036AEDC /* AppDelegate.swift */; };
+		30CFF977284D44E90036AEDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF976284D44E90036AEDC /* SceneDelegate.swift */; };
+		30CFF979284D44E90036AEDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF978284D44E90036AEDC /* ViewController.swift */; };
+		30CFF97C284D44E90036AEDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CFF97A284D44E90036AEDC /* Main.storyboard */; };
+		30CFF97E284D44EA0036AEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CFF97D284D44EA0036AEDC /* Assets.xcassets */; };
+		30CFF981284D44EA0036AEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CFF97F284D44EA0036AEDC /* LaunchScreen.storyboard */; };
+		30CFF98C284D44EA0036AEDC /* VimcalChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF98B284D44EA0036AEDC /* VimcalChallengeTests.swift */; };
+		30CFF996284D44EA0036AEDC /* VimcalChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF995284D44EA0036AEDC /* VimcalChallengeUITests.swift */; };
+		30CFF998284D44EA0036AEDC /* VimcalChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CFF997284D44EA0036AEDC /* VimcalChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30CFF988284D44EA0036AEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30CFF969284D44E90036AEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CFF970284D44E90036AEDC;
+			remoteInfo = VimcalChallenge;
+		};
+		30CFF992284D44EA0036AEDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30CFF969284D44E90036AEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CFF970284D44E90036AEDC;
+			remoteInfo = VimcalChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30CFF971284D44E90036AEDC /* VimcalChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimcalChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CFF974284D44E90036AEDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30CFF976284D44E90036AEDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30CFF978284D44E90036AEDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30CFF97B284D44E90036AEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30CFF97D284D44EA0036AEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30CFF980284D44EA0036AEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30CFF982284D44EA0036AEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CFF987284D44EA0036AEDC /* VimcalChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimcalChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CFF98B284D44EA0036AEDC /* VimcalChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimcalChallengeTests.swift; sourceTree = "<group>"; };
+		30CFF991284D44EA0036AEDC /* VimcalChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimcalChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CFF995284D44EA0036AEDC /* VimcalChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimcalChallengeUITests.swift; sourceTree = "<group>"; };
+		30CFF997284D44EA0036AEDC /* VimcalChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimcalChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CFF96E284D44E90036AEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CFF984284D44EA0036AEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CFF98E284D44EA0036AEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CFF968284D44E90036AEDC = {
+			isa = PBXGroup;
+			children = (
+				30CFF973284D44E90036AEDC /* VimcalChallenge */,
+				30CFF98A284D44EA0036AEDC /* VimcalChallengeTests */,
+				30CFF994284D44EA0036AEDC /* VimcalChallengeUITests */,
+				30CFF972284D44E90036AEDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30CFF972284D44E90036AEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CFF971284D44E90036AEDC /* VimcalChallenge.app */,
+				30CFF987284D44EA0036AEDC /* VimcalChallengeTests.xctest */,
+				30CFF991284D44EA0036AEDC /* VimcalChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30CFF973284D44E90036AEDC /* VimcalChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				30CFF974284D44E90036AEDC /* AppDelegate.swift */,
+				30CFF976284D44E90036AEDC /* SceneDelegate.swift */,
+				30CFF978284D44E90036AEDC /* ViewController.swift */,
+				30CFF97A284D44E90036AEDC /* Main.storyboard */,
+				30CFF97D284D44EA0036AEDC /* Assets.xcassets */,
+				30CFF97F284D44EA0036AEDC /* LaunchScreen.storyboard */,
+				30CFF982284D44EA0036AEDC /* Info.plist */,
+			);
+			path = VimcalChallenge;
+			sourceTree = "<group>";
+		};
+		30CFF98A284D44EA0036AEDC /* VimcalChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				30CFF98B284D44EA0036AEDC /* VimcalChallengeTests.swift */,
+			);
+			path = VimcalChallengeTests;
+			sourceTree = "<group>";
+		};
+		30CFF994284D44EA0036AEDC /* VimcalChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30CFF995284D44EA0036AEDC /* VimcalChallengeUITests.swift */,
+				30CFF997284D44EA0036AEDC /* VimcalChallengeUITestsLaunchTests.swift */,
+			);
+			path = VimcalChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30CFF970284D44E90036AEDC /* VimcalChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CFF99B284D44EA0036AEDC /* Build configuration list for PBXNativeTarget "VimcalChallenge" */;
+			buildPhases = (
+				30CFF96D284D44E90036AEDC /* Sources */,
+				30CFF96E284D44E90036AEDC /* Frameworks */,
+				30CFF96F284D44E90036AEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimcalChallenge;
+			productName = VimcalChallenge;
+			productReference = 30CFF971284D44E90036AEDC /* VimcalChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30CFF986284D44EA0036AEDC /* VimcalChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CFF99E284D44EA0036AEDC /* Build configuration list for PBXNativeTarget "VimcalChallengeTests" */;
+			buildPhases = (
+				30CFF983284D44EA0036AEDC /* Sources */,
+				30CFF984284D44EA0036AEDC /* Frameworks */,
+				30CFF985284D44EA0036AEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CFF989284D44EA0036AEDC /* PBXTargetDependency */,
+			);
+			name = VimcalChallengeTests;
+			productName = VimcalChallengeTests;
+			productReference = 30CFF987284D44EA0036AEDC /* VimcalChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30CFF990284D44EA0036AEDC /* VimcalChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CFF9A1284D44EA0036AEDC /* Build configuration list for PBXNativeTarget "VimcalChallengeUITests" */;
+			buildPhases = (
+				30CFF98D284D44EA0036AEDC /* Sources */,
+				30CFF98E284D44EA0036AEDC /* Frameworks */,
+				30CFF98F284D44EA0036AEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CFF993284D44EA0036AEDC /* PBXTargetDependency */,
+			);
+			name = VimcalChallengeUITests;
+			productName = VimcalChallengeUITests;
+			productReference = 30CFF991284D44EA0036AEDC /* VimcalChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30CFF969284D44E90036AEDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					30CFF970284D44E90036AEDC = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					30CFF986284D44EA0036AEDC = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 30CFF970284D44E90036AEDC;
+					};
+					30CFF990284D44EA0036AEDC = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 30CFF970284D44E90036AEDC;
+					};
+				};
+			};
+			buildConfigurationList = 30CFF96C284D44E90036AEDC /* Build configuration list for PBXProject "VimcalChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30CFF968284D44E90036AEDC;
+			productRefGroup = 30CFF972284D44E90036AEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30CFF970284D44E90036AEDC /* VimcalChallenge */,
+				30CFF986284D44EA0036AEDC /* VimcalChallengeTests */,
+				30CFF990284D44EA0036AEDC /* VimcalChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30CFF96F284D44E90036AEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CFF981284D44EA0036AEDC /* LaunchScreen.storyboard in Resources */,
+				30CFF97E284D44EA0036AEDC /* Assets.xcassets in Resources */,
+				30CFF97C284D44E90036AEDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CFF985284D44EA0036AEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CFF98F284D44EA0036AEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CFF96D284D44E90036AEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CFF979284D44E90036AEDC /* ViewController.swift in Sources */,
+				30CFF975284D44E90036AEDC /* AppDelegate.swift in Sources */,
+				30CFF977284D44E90036AEDC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CFF983284D44EA0036AEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CFF98C284D44EA0036AEDC /* VimcalChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CFF98D284D44EA0036AEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CFF998284D44EA0036AEDC /* VimcalChallengeUITestsLaunchTests.swift in Sources */,
+				30CFF996284D44EA0036AEDC /* VimcalChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30CFF989284D44EA0036AEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30CFF970284D44E90036AEDC /* VimcalChallenge */;
+			targetProxy = 30CFF988284D44EA0036AEDC /* PBXContainerItemProxy */;
+		};
+		30CFF993284D44EA0036AEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30CFF970284D44E90036AEDC /* VimcalChallenge */;
+			targetProxy = 30CFF992284D44EA0036AEDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30CFF97A284D44E90036AEDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CFF97B284D44E90036AEDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30CFF97F284D44EA0036AEDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CFF980284D44EA0036AEDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30CFF999284D44EA0036AEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30CFF99A284D44EA0036AEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30CFF99C284D44EA0036AEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GN5WJ7SZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VimcalChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatomateusx.VimcalChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30CFF99D284D44EA0036AEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GN5WJ7SZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VimcalChallenge/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatomateusx.VimcalChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30CFF99F284D44EA0036AEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GN5WJ7SZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatomateusx.VimcalChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VimcalChallenge.app/VimcalChallenge";
+			};
+			name = Debug;
+		};
+		30CFF9A0284D44EA0036AEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GN5WJ7SZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatomateusx.VimcalChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VimcalChallenge.app/VimcalChallenge";
+			};
+			name = Release;
+		};
+		30CFF9A2284D44EA0036AEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GN5WJ7SZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatomateusx.VimcalChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VimcalChallenge;
+			};
+			name = Debug;
+		};
+		30CFF9A3284D44EA0036AEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3GN5WJ7SZD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.renatomateusx.VimcalChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VimcalChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CFF96C284D44E90036AEDC /* Build configuration list for PBXProject "VimcalChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CFF999284D44EA0036AEDC /* Debug */,
+				30CFF99A284D44EA0036AEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CFF99B284D44EA0036AEDC /* Build configuration list for PBXNativeTarget "VimcalChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CFF99C284D44EA0036AEDC /* Debug */,
+				30CFF99D284D44EA0036AEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CFF99E284D44EA0036AEDC /* Build configuration list for PBXNativeTarget "VimcalChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CFF99F284D44EA0036AEDC /* Debug */,
+				30CFF9A0284D44EA0036AEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CFF9A1284D44EA0036AEDC /* Build configuration list for PBXNativeTarget "VimcalChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CFF9A2284D44EA0036AEDC /* Debug */,
+				30CFF9A3284D44EA0036AEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30CFF969284D44E90036AEDC /* Project object */;
+}

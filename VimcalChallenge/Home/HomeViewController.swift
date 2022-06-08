@@ -20,6 +20,7 @@ class HomeViewController: UIViewController {
     // MARK: - Properties
     private(set) var listOf: [Int] = []
     private var startPoint: Int = 268
+    private var constCalculateCloseToEnd: Int = 60
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +53,10 @@ class HomeViewController: UIViewController {
             self.tableView.reloadData()
         }
     }
+    
+    func isCloseToTheEnd(_ indexPath: IndexPath) -> Bool {
+        return indexPath.row == (self.listOf.count - constCalculateCloseToEnd)
+    }
 }
 
 // MARK: - Delegate
@@ -82,6 +87,11 @@ extension HomeViewController: UITableViewDataSource {
         return result
     }
     
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        guard isCloseToTheEnd(indexPath) else { return }
+        self.addItemAtBottomOfArray()
+    }
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let height = tableView.frame.size.height
         let contentYOffset = tableView.contentOffset.y
@@ -104,6 +114,7 @@ extension HomeViewController: UITableViewDataSource {
 }
 
 // MARK: - Managing data source
+/// it can/should be improved.
 private extension HomeViewController {
     func addItemAtTopOfArray() {
         var previousNumber = 0
@@ -113,8 +124,12 @@ private extension HomeViewController {
             } else if topItem < 0 {
                 previousNumber = topItem + -1
                 self.listOf.insert(previousNumber, at: 0)
+            } else {
+                previousNumber = topItem - 1
+                self.listOf.insert(previousNumber, at: 0)
             }
             reloadItems()
+            
         }
     }
     
@@ -122,7 +137,7 @@ private extension HomeViewController {
         if let bottomItem = self.listOf.last {
             let latestBottom = bottomItem + 1
             self.listOf.append(latestBottom)
-            reloadItems()
+            self.reloadItems()
         }
     }
     

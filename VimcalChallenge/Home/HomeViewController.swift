@@ -19,7 +19,7 @@ class HomeViewController: UIViewController {
     
     // MARK: - Properties
     private(set) var listOf: [Int] = []
-    private var startPoint: Int = 268
+    private var startPoint: Int = 261
     private var constCalculateCloseToEnd: Int = 60
     
     override func viewDidLoad() {
@@ -46,12 +46,17 @@ class HomeViewController: UIViewController {
     
     func calculateScrollTo() {
         tableView.scrollToRow(at: IndexPath(row: startPoint, section: 0), at: .none, animated: true)
+        reloadMoreItems()
     }
     
     func reloadItems() {
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }
+    }
+    
+    func reloadMoreItems() {
+        self.listOf.append(contentsOf: Array<Int>(501...800))
     }
     
     func isCloseToTheEnd(_ indexPath: IndexPath) -> Bool {
